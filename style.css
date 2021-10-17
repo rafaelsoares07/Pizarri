@@ -44,10 +44,7 @@ body{
 }
 
 .nav-bar{
-	
-
 	background-color:black;
-
 	font-family: 'Dancing Script', cursive;
 }
 
@@ -101,8 +98,6 @@ body{
 .area-banner-triplo{
 	display: flex;
 	justify-content: space-between;
-	
-	
 	width: 100%;
 
 }
@@ -249,5 +244,21 @@ h1:after{
 	.logo-img{
 	width: 100px;
 	}
+
+	.nav-bar{
+		display: none;
+	}
+
+	.area-banner-triplo{
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	}
+
+	.area-banner-triplo img{
+		width: 95%;
+		margin-bottom: 10px;
+	}
+
 
 }
